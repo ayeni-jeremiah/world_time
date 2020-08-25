@@ -1,10 +1,11 @@
 import 'package:http/http.dart';
 import 'dart:convert';
 import 'package:world_time/services/internet.dart';
+import 'package:world_time/services/api.dart';
 
 class LocationWeather {
   final String _apiKey =
-      "6694a30fde72dd737c4d77c63c748b69"; //api-key from API provider
+      apikey["weather"]; //api-key from API provider
 
   double lat = 0, lon = 0;
   Map _data = {};

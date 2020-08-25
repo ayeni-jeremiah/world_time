@@ -2,9 +2,10 @@ import 'package:http/http.dart';
 import 'dart:convert';
 import 'package:world_time/services/internet.dart';
 import 'package:intl/intl.dart';
+import 'package:world_time/services/api.dart';
 
 class LocationTime {
-  final String _key = "ayenijeremiah"; //api-key from API provider
+  final String _key = apikey["time"]; //api-key from API provider
 
   double lon = 0, lat = 0; //latitude and longitude from mobile/user
   Map _data = {}; //Location API data;
