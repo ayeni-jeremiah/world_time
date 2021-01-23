@@ -1,12 +1,12 @@
-# world_time
+# Weather_Time App
 
-A new Flutter application.
+An Android/IOS Application built on Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project was built to get real time weather and time information of countries, states and cities around the world.
 
-A few resources to get you started if this is your first Flutter project:
+- A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
